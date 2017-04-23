@@ -1,0 +1,10 @@
+ManifestFileVersion: 0
+CRC: 2634134380
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: searsbundle
+      Dependencies: {}
+    Info_1:
+      Name: olivebundle
+      Dependencies: {}

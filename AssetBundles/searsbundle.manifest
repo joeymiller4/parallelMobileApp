@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 1629834261
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: eff6e14bc8d28a100df7a1d4fb30411a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 02b88d5596bdbc0a8cfefa6c3bb3e133
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 90b601ec87536cf40bc4f58a7496bae9, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/SearsTower.prefab
+Dependencies: []
