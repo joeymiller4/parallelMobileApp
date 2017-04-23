@@ -1,10 +1,7 @@
 ManifestFileVersion: 0
-CRC: 2634134380
+CRC: 1279150
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: searsbundle
-      Dependencies: {}
-    Info_1:
-      Name: olivebundle
+      Name: vrscenesbundle
       Dependencies: {}
