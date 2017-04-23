@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4AB21B54-0847-9463-C7A9-1B9921F7701C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.5.0f3</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_0;UNITY_5_5;UNITY_5;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_32;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;VUFORIA_ANDROID_SETTINGS</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_0;UNITY_5_5;UNITY_5;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_32;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;VUFORIA_ANDROID_SETTINGS</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PlaymodeTestsRunner">
+      <HintPath>Library\UnityAssemblies\UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.ProtocolBuffers">
+      <HintPath>Assets\Plugins\Google.ProtocolBuffers.dll</HintPath>
+    </Reference>
+    <Reference Include="QRCode">
+      <HintPath>Assets\Plugins\QRCode.dll</HintPath>
+    </Reference>
+    <Reference Include="Vuforia.UnityExtensions">
+      <HintPath>Assets\Vuforia\Scripts\Internal\Vuforia.UnityExtensions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Parallel_MobileApp.CSharp.Plugins.csproj">
+      <Project>{B0E8E691-CB95-4DC2-8CA8-7B7BD41E2798}</Project>
+      <Name>Parallel_MobileApp.CSharp.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\GoogleVR\Legacy\Scripts\GazeInputModule.cs" />
+    <Compile Include="Assets\GoogleVR\Legacy\Scripts\GvrHead.cs" />
+    <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\GvrCameraUtils.cs" />
+    <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\GvrEye.cs" />
+    <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\GvrPostRender.cs" />
+    <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\GvrPreRender.cs" />
+    <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\GvrProfile.cs" />
+    <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\StereoController.cs" />
+    <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\StereoRenderEffect.cs" />
+    <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\VRDevices\AndroidDevice.cs" />
+    <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\VRDevices\BaseAndroidDevice.cs" />
+    <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\VRDevices\BaseVRDevice.cs" />
+    <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\VRDevices\EditorDevice.cs" />
+    <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\VRDevices\GvrDevice.cs" />
+    <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\VRDevices\UnityVRDevice.cs" />
+    <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\VRDevices\iOSDevice.cs" />
+    <Compile Include="Assets\GoogleVR\Legacy\Scripts\UI\GvrGaze.cs" />
+    <Compile Include="Assets\GoogleVR\Legacy\Scripts\UI\GvrReticle.cs" />
+    <Compile Include="Assets\GoogleVR\Legacy\Scripts\UI\IGvrGazeResponder.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Audio\GvrAudio.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Audio\GvrAudioListener.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Audio\GvrAudioRoom.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Audio\GvrAudioSoundfield.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Audio\GvrAudioSource.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrArmModel.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrArmModelOffsets.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrController.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrControllerVisual.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrPointerManager.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrToolTips.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerProviderFactory.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerProviders\AndroidNativeControllerProvider.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerProviders\DummyControllerProvider.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerProviders\EmulatorControllerProvider.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerState.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\EmulatorClientSocket.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\EmulatorConfig.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\EmulatorDataTypes.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\EmulatorManager.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\PhoneEvent.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\IControllerProvider.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrBasePointer.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrBasePointerRaycaster.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrEventInterfacesExtension.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrExecuteEventsExtension.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrPointerGraphicRaycaster.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrPointerInputModule.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrPointerPhysicsRaycaster.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\EventSystem\IGvrPointer.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\GvrSettings.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\GvrUnitySdkVersion.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\GvrViewer.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Permissions\GvrPermissionsRequester.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Pose3D.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\UI\GvrLaserPointer.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\UI\GvrReticlePointer.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrFPS.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrIntent.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
+    <Compile Include="Assets\LeanTouch\Examples+\Scripts\LeanBoxJoystick.cs" />
+    <Compile Include="Assets\LeanTouch\Examples+\Scripts\LeanCircleJoystick.cs" />
+    <Compile Include="Assets\LeanTouch\Examples+\Scripts\LeanConstrainToBox.cs" />
+    <Compile Include="Assets\LeanTouch\Examples+\Scripts\LeanDragLineFade.cs" />
+    <Compile Include="Assets\LeanTouch\Examples+\Scripts\LeanDragShoot.cs" />
+    <Compile Include="Assets\LeanTouch\Examples+\Scripts\LeanDragShootIndicator.cs" />
+    <Compile Include="Assets\LeanTouch\Examples+\Scripts\LeanDragSpawnUI.cs" />
+    <Compile Include="Assets\LeanTouch\Examples+\Scripts\LeanDragThrow.cs" />
+    <Compile Include="Assets\LeanTouch\Examples+\Scripts\LeanDragThrowIndicator.cs" />
+    <Compile Include="Assets\LeanTouch\Examples+\Scripts\LeanDragTrailFade.cs" />
+    <Compile Include="Assets\LeanTouch\Examples+\Scripts\LeanDragTurn.cs" />
+    <Compile Include="Assets\LeanTouch\Examples+\Scripts\LeanDragTurnStepSmooth.cs" />
+    <Compile Include="Assets\LeanTouch\Examples+\Scripts\LeanDraggableUI.cs" />
+    <Compile Include="Assets\LeanTouch\Examples+\Scripts\LeanJoystickTurret.cs" />
+    <Compile Include="Assets\LeanTouch\Examples+\Scripts\LeanMultiSelect.cs" />
+    <Compile Include="Assets\LeanTouch\Examples+\Scripts\LeanOrbit.cs" />
+    <Compile Include="Assets\LeanTouch\Examples+\Scripts\LeanOrbitCamera.cs" />
+    <Compile Include="Assets\LeanTouch\Examples+\Scripts\LeanOrbitCameraSmooth.cs" />
+    <Compile Include="Assets\LeanTouch\Examples+\Scripts\LeanOrbitCameraSwipe.cs" />
+    <Compile Include="Assets\LeanTouch\Examples+\Scripts\LeanOrbitCameraSwipeSmooth.cs" />
+    <Compile Include="Assets\LeanTouch\Examples+\Scripts\LeanOrbitSmooth.cs" />
+    <Compile Include="Assets\LeanTouch\Examples+\Scripts\LeanPanSwipeSmooth.cs" />
+    <Compile Include="Assets\LeanTouch\Examples+\Scripts\LeanPong.cs" />
+    <Compile Include="Assets\LeanTouch\Examples+\Scripts\LeanPongBall.cs" />
+    <Compile Include="Assets\LeanTouch\Examples+\Scripts\LeanResizableUI.cs" />
+    <Compile Include="Assets\LeanTouch\Examples+\Scripts\LeanRevertTransform.cs" />
+    <Compile Include="Assets\LeanTouch\Examples+\Scripts\LeanSelectCount.cs" />
+    <Compile Include="Assets\LeanTouch\Examples+\Scripts\LeanSelectablePlaceOnLine.cs" />
+    <Compile Include="Assets\LeanTouch\Examples+\Scripts\LeanSelectablePlaceOnPlane.cs" />
+    <Compile Include="Assets\LeanTouch\Examples+\Scripts\LeanShoot.cs" />
+    <Compile Include="Assets\LeanTouch\Examples+\Scripts\LeanSpawnable.cs" />
+    <Compile Include="Assets\LeanTouch\Examples+\Scripts\LeanSplitRotate.cs" />
+    <Compile Include="Assets\LeanTouch\Examples+\Scripts\LeanSplitTranslate.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanDestroy.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanDragLine.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanDragTrail.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanFingerDown.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanFingerTap.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanFingerUp.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanMultiTap.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanMultiTapInfo.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanOpenUrl.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanPan.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanPanSmooth.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanPressSelect.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanRotate.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanScale.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSelect.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSelectable.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSelectableBehaviour.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSelectableRendererColor.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSelectableSpriteRendererColor.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSelectableTranslateInertia2D.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSelectableTranslateInertia3D.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSpawnGameObject.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSwipeDirection4.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSwipeDirection8.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSwipeRigidbody2D.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSwipeRigidbody2DNoRelease.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSwipeRigidbody3D.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSwipeRigidbody3DNoRelease.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanTapSelect.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanTouchEvents.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanTranslate.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanTranslateSmooth.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanZoomCamera.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanZoomCameraSmooth.cs" />
+    <Compile Include="Assets\LeanTouch\Scripts\LeanFinger.cs" />
+    <Compile Include="Assets\LeanTouch\Scripts\LeanGesture.cs" />
+    <Compile Include="Assets\LeanTouch\Scripts\LeanSnapshot.cs" />
+    <Compile Include="Assets\LeanTouch\Scripts\LeanTouch.cs" />
+    <Compile Include="Assets\Rotate.cs" />
+    <Compile Include="Assets\Scripts\AnimControl.cs" />
+    <Compile Include="Assets\Scripts\AssetBundleManager.cs" />
+    <Compile Include="Assets\Scripts\AssetLoader.cs" />
+    <Compile Include="Assets\Scripts\CameraPlaneController.cs" />
+    <Compile Include="Assets\Scripts\DecodeByStaticPic.cs" />
+    <Compile Include="Assets\Scripts\DeviceCameraController.cs" />
+    <Compile Include="Assets\Scripts\ExternalLinks.cs" />
+    <Compile Include="Assets\Scripts\FocusCamera.cs" />
+    <Compile Include="Assets\Scripts\FrontBackCamera.cs" />
+    <Compile Include="Assets\Scripts\InvisibleBGCtrl.cs" />
+    <Compile Include="Assets\Scripts\LoadingScene.cs" />
+    <Compile Include="Assets\Scripts\LookAt.cs" />
+    <Compile Include="Assets\Scripts\MenuVisibilityCtrl.cs" />
+    <Compile Include="Assets\Scripts\MoveCamera.cs" />
+    <Compile Include="Assets\Scripts\PinchZoom.cs" />
+    <Compile Include="Assets\Scripts\QRCodeDecodeController.cs" />
+    <Compile Include="Assets\Scripts\QRCodeEncodeController.cs" />
+    <Compile Include="Assets\Scripts\QRDecodeTest.cs" />
+    <Compile Include="Assets\Scripts\QREncodeTest.cs" />
+    <Compile Include="Assets\Scripts\SaveToGallery.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\BackgroundPlaneBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\CloudRecoBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\CylinderTargetBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\DefaultSmartTerrainEventHandler.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\GLErrorHandler.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\HideExcessAreaBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\ImageTargetBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\Internal\AndroidUnityPlayer.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\Internal\ComponentFactoryStarterBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\Internal\IOSUnityPlayer.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\Internal\VuforiaBehaviourComponentFactory.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\Internal\WSAUnityPlayer.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\MaskOutBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\MultiTargetBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\ObjectTargetBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\PropBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\ReconstructionBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\ReconstructionFromTargetBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\SurfaceBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\TextRecoBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\TurnOffBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\TurnOffWordBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\UserDefinedTargetBuildingBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\Utilities\VRIntegrationHelper.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\VideoBackgroundBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\VirtualButtonBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\VuMarkBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\VuforiaBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\VuforiaConfiguration.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\VuforiaRuntimeInitialization.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\WireframeBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\WireframeTrackableEventHandler.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\WordBehaviour.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\GoogleVR\Distortion\GvrDistortion.cginc" />
+    <None Include="Assets\GoogleVR\Legacy\Resources\SolidColor.shader" />
+    <None Include="Assets\GoogleVR\Legacy\Resources\UnlitTexture.shader" />
+    <None Include="Assets\GoogleVR\Shaders\GvrAdditiveOverlay.shader" />
+    <None Include="Assets\GoogleVR\Shaders\GvrReticleShader.shader" />
+    <None Include="Assets\GoogleVR\Shaders\GvrUIOverlay.shader" />
+    <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
+    <None Include="Assets\GoogleVR\Shaders\GvrUnityCompatibility.cginc" />
+    <None Include="Assets\GoogleVR\Shaders\GvrUnlitTextureOverlay.shader" />
+    <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlay.shader" />
+    <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlayColor.shader" />
+    <None Include="Assets\LeanTouch\Examples\Fonts\OFL.txt" />
+    <None Include="Assets\LeanTouch\Examples\Shaders\BackgroundSkybox.shader" />
+    <None Include="Assets\LeanTouch\Examples\Shaders\Smooth.shader" />
+    <None Include="Assets\Materials\Blur.shader" />
+    <None Include="Assets\Materials\WebCam.shader" />
+    <None Include="Assets\Plugins\Android\AndroidManifest-Cardboard.xml" />
+    <None Include="Assets\Plugins\Android\AndroidManifest-Daydream.xml" />
+    <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\proguard-gvr.txt" />
+    <None Include="Assets\Vuforia\Editor\Scripts\Vuforia.UnityExtensions.Editor.XML" />
+    <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
+    <None Include="Assets\Vuforia\Scripts\Internal\Vuforia.UnityExtensions.XML" />
+    <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
+    <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
+    <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
+    <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
+    <None Include="Assets\Vuforia\Shaders\RenderVideoBackground.shader" />
+    <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
+    <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
+    <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
+    <None Include="Assets\license_3rdpartynotice.txt" />
+    <None Include="Assets\link.xml" />
+    <None Include="Assets\readme_SDK.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
+</Project>

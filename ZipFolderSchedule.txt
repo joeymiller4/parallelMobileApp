@@ -1,0 +1,7 @@
+Zip Folder Updates:
+03.13.2017 : New grid menu design
+03.14.2017 : Dynamically load asset bundles enabled
+03.15.2017 : New icons, Contact panel enabled
+03.22.2017 : Dynamically save, load and share screenshots enabled
+03.29.2017 : Load specific bundle from Projects panel enabled
+04.10.2017 : Download progress radial loader enabled
